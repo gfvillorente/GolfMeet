@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Golfmeet</title>
+
+    <link href="assets/stylesheets/bootstrap.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="assets/stylesheets/global-css.css" type="text/css" media="screen" rel="stylesheet"> 
+    <link href="assets/stylesheets/signup-page.css" type="text/css" media="screen" rel="stylesheet">
+   </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="#"><img src="assets/images/golfmeet-logo5.png" width="150px">
+      </div>
+    </nav>
+
+    <div class="wrapper">
+
+      <h2>Your social golf network</h2>
+
+      <p class="status-message"></p>
+
+
+      <div id="data-dashboard">
+        <form>
+
+        <br>
+        <label for="firstname">First name:</label><br>
+        <input type="text" id="firstname" value="">    
+        <br> 
+        <label for="lastname">Last name:</label><br>
+        <input type="text" id="lastname" value="">
+        <br> 
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" value="">
+        <br> 
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" value="">      
+        <br> 
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" value="">      
+        <br> 
+        <label for="confirm-pw">Confirm Password:</label><br>
+        <input type="text" id="confirm-pw" value="">       
+        <br> 
+        <br>
+        <br>
+        <button type="submit" id="update-details" name="action">Submit</button>
+        <button id="clear-all" name="action">Clear Info</button>
+
+        </form>
+      </div>
+
+    </div>
+    <!-- JQUERY -->
+    <script type="text/javascript" src="assets/js/modernizr.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/localstorage.js"></script>
+</body>
+
+
+</html>

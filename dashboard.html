@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+   	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Golfmeet: Dashboard</title>
+
+    <link href="assets/stylesheets/reset.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="assets/stylesheets/bootstrap-theme.min.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="assets/stylesheets/bootstrap.min.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="assets/stylesheets/global-css.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="assets/stylesheets/scorecard-style.css" type="text/css" media="screen" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheets/glyphicons.css"> <script src="scripts/modernizr.js"></script>
+    <link href="assets/stylesheets/dashboard.css" type="text/css" media="screen" rel="stylesheet">
+    <href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='css'>
+
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main-page.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/dashboard.js"></script>
+    <script type="text/javascript" src="assets/js/scores.js"></script>
+   </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+         
+          <a class="navbar-brand" href="#"><img src="assets/images/golfmeet-logo5.png" width="150px">
+       
+          <ul class="nav navbar-nav">
+            <li class=""><a href="" class="glyphicons white home"></a></li>
+            <li><a href="" class="glyphicons white golf_course"></a></li>
+            <li><a href="" class="glyphicons white group"></a></li>
+            <li><a href="" class="glyphicons white google_maps"></a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class=""><a href="" class="glyphicons white search"></a></li>
+            <li><a href="" class="glyphicons white bell"></a></li>
+            <li><a href="" class="glyphicons white cogwheel"></a></li>
+          </ul>
+      </div>
+    </nav>
+  <div class="container bg-body">
+    <div class="left-nav">
+        <div class="profile-box col-md-1">
+          <img src="assets/images/profile-pic.jpg" alt="profile-picture" class="img-circle" height="120px">
+              <button id="p" class="btn buttons-left glyphicons white nameplate"><span class="label-white">PROFILE</span></button>
+              <button class="btn buttons-left glyphicons white envelope"><span class="label-white ">MESSAGES</span></button>
+              <button id="c" class="btn buttons-left glyphicons white calendar"><span class="label-white ">CALENDAR</span></button>
+              <button id="s" class="btn buttons-left glyphicons white charts"><span class="label-white">STATS</span></button>
+        </div>
+    </div> 
+    <div class="left-nav-box all" id="profile-div">  
+	    <div class="left-nav-body">
+	      	<div class="panel panel-success">
+	        	<div class="panel-heading">
+	          		<h3 class="panel-title">Personal Information</h3>
+	          		<button type="submit" class="btn btn-default btn-xs round pull-right"><span class="glyphicon glyphicon-ok"></span></button>
+	        	</div>
+	        	<div class="panel-body">
+		            
+		            	<div class="info-box-left">
+		            	<form role="form">
+		                <h5>Basic Information</h5>
+		              	    
+			                	<div class="form-group">
+			                  		<input type="text" class="form-box" placeholder="Name">
+			                	</div>
+				                <div class="form-group">
+				                  	<input type="text" class="form-box" placeholder="Skill Level">
+				                </div>
+				                <div class="form-group">
+				                  	<input type="email" class="form-box" placeholder="Location">
+				                </div>
+				                <div class="form-group">
+				                  	<input type="password" class="form-box" placeholder="Birthdate">
+				                </div>
+	                 			<div class="form-group">
+		                		<textarea class="text-box" rows="7" placeholder="About Me"></textarea><br>
+	              		</div>
+	              		</div>
+	              		<div class="info-box-right">
+	              		<form role="form">
+	  					<h5 class="h5-padding">Contact Information</h5>
+	              			
+		                		<div class="form-group">
+		                 			<input type="text" class="form-box" placeholder="Email Address">
+		                		</div>
+		                		<div class="form-group">
+		                  			<input type="text" class="form-box" placeholder="Mobile Number">
+		                		</div>
+	            
+	              		<h5 class="h5-padding">Professional Information</h5>
+	              				<div class="form-group">
+		                 			<input type="text" class="form-box" placeholder="Industry">
+		                		</div>
+	                 			<div class="form-group">
+		                 			<input type="text" class="form-box" placeholder="Profession">
+		                		</div>
+		                		<div class="form-group">
+		                  			<input type="text" class="form-box" placeholder="Company">
+		                		</div>
+						</form>
+						</div>
+		      	</div>
+		    </div> 
+		</div>
+
+		<div class="left-nav-body">
+	      	<div class="panel panel-success">
+	        	<div class="panel-heading">
+	          		<h3 class="panel-title">Media Box</h3>
+	          		<button type="submit" class="btn btn-default btn-xs round pull-right"><span class="glyphicon glyphicon-ok"></span></button>
+	        	</div>
+	        	<div class="panel-body">
+	        		
+		         
+		    </div> 
+		</div>
+	</div>
+
+	<div class="all" id="calendar-div">
+		<iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
+
+
+	<div class="all" id="scorecard-div">
+		<form>
+			<table>
+				<thead>
+					<tr>
+						<th class="title" colspan="20">Golf Scoreboard</th>
+					</tr>
+				</thead>
+
+				<tr>
+				  <th>Holes</th>
+			     <th>1</th>
+			     <th>2</th>
+			     <th>3</th>
+			     <th>4</th>
+			     <th>5</th>
+			     <th>6</th>
+			     <th>7</th>
+			     <th>8</th>
+			     <th>9</th>
+			     <th>10</th>
+			     <th>11</th>
+			     <th>12</th>
+			     <th>13</th>
+			     <th>14</th>
+			     <th>15</th>
+			     <th>16</th>
+			     <th>17</th>
+			     <th>18</th>
+			     <th>Total</th>
+				</tr>
+				</thead>
+				
+				<tbody class="bod">
+				<tr id="firstRow2">
+				  <td>Par</td>
+				</tr>
+
+				<tr id="eagl">
+				</tr>
+				</tbody>
+
+			</table>
+		</form>
+
+			<button class="btn btn-default btn-xs" id="hideButton">Hide Form</button>
+
+			<br>
+			<br>
+
+			<table>
+				<thead>
+					<tr>
+						<th class="title" colspan="20">Score Form</th>
+					</tr>
+				</thead>
+
+				<tr>
+				  <th>Holes</th>
+			     <th>1</th>
+			     <th>2</th>
+			     <th>3</th>
+			     <th>4</th>
+			     <th>5</th>
+			     <th>6</th>
+			     <th>7</th>
+			     <th>8</th>
+			     <th>9</th>
+			     <th>10</th>
+			     <th>11</th>
+			     <th>12</th>
+			     <th>13</th>
+			     <th>14</th>
+			     <th>15</th>
+			     <th>16</th>
+			     <th>17</th>
+			     <th>18</th>
+			     <th>Total</th>
+				</tr>
+				</thead>
+				
+				<tbody class="body">
+				<tr id="firstRow">
+				  <td id="cell_0-0">Par</td>
+				</tr>
+
+				<tr id="scoreRows">
+				</tr>
+				</tbody>
+
+			</table>
+
+			<button class="btn btn-default btn-xs" id="update">Update Scores</button>
+
+	</div>
+
+  </body>
+</html>
+
+
