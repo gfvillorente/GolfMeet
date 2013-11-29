@@ -15,7 +15,9 @@ $(document).ready(function () {
         $("#scorecard-div").slideToggle('slow', 'swing');
 	});
 
-
+	$("button .dropdown").click(function () {
+		$(".dropdown").dropdown();
+	});
 })
 
 

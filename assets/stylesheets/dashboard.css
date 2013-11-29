@@ -1,218 +1,183 @@
 body {
-	height: 2000px;
-	
+	background: #444 url(snow_@2X.png) repeat; 
 }
 
-.navbar-inverse {
-	background: #72bf00; /* Old browsers */
-	background: -moz-linear-gradient(top, #72bf00 0%, #8bc600 28%, #72bf00 93%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#72bf00), color-stop(28%,#8bc600), color-stop(93%,#72bf00)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #72bf00 0%,#8bc600 28%,#72bf00 93%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #72bf00 0%,#8bc600 28%,#72bf00 93%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #72bf00 0%,#8bc600 28%,#72bf00 93%); /* IE10+ */
-	background: linear-gradient(to bottom, #72bf00 0%,#8bc600 28%,#72bf00 93%); /* W3C */
-	border:none;
+/*-----Navbar--------*/
+nav .btn-default {
+	margin-top:17px;
+	color: #222;
+	border: none;
 }
 
+/*-----Boxes------*/
 
-.navbar-brand {
-	margin-top: -20px;
-	margin-bottom: -17px;
+.col-md-9,
+.col-md-6,
+.col-md-3 {
+	border: 1px solid #eee;
+	background-color: #fff;
+}
+.col-md-9:hover,
+.col-md-9:focus,
+.col-md-6:hover,
+.col-md-6:focus,
+.col-md-3:hover,
+.col-md-3:focus,
+.progressBox:hover,
+.progressBox:focus,
+.dealsBox:hover,
+.dealsBox:focus {
+	background-color: #f8f8f8;
 }
 
-.glyphicons {
-	margin:17px 10px;
+.bodyBox {
+	color:#000;
 }
 
-.navbar-right .glyphicons {
-	margin:17px 0;
-
+.golfMeeterBox,
+.createEventBox {
+	height:200px;
+	margin: 0;
 }
 
-.white:after:hover {
-  color: #d24502;
+.golfMeeterBox #profileName {
+	font-size: 12px;
 }
 
+.golfMeeterBox .golfMeeterProfile {
+	font-size: 11px;
+}
 
-
-.bg-body {
-	background: #f8ffe8; /* Old browsers */
-	background: -moz-linear-gradient(top, #f8ffe8 0%, #eef4d9 33%, #ecebd0 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8ffe8), color-stop(33%,#eef4d9), color-stop(100%,#ecebd0)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #f8ffe8 0%,#eef4d9 33%,#ecebd0 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #f8ffe8 0%,#eef4d9 33%,#ecebd0 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #f8ffe8 0%,#eef4d9 33%,#ecebd0 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #f8ffe8 0%,#eef4d9 33%,#ecebd0 100%);
-	height:100%;
-	padding-top: 60px;
+.golfMeeterProfile td {
+	width:110px;
 
 }
 
-.left-nav {
-	background: #111111; /* Old browsers */
-	background: -moz-linear-gradient(top, #111111 6%, #232323 32%, #1c1c1c 60%, #131313 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(6%,#111111), color-stop(32%,#232323), color-stop(60%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #111111 6%,#232323 32%,#1c1c1c 60%,#131313 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #111111 6%,#232323 32%,#1c1c1c 60%,#131313 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #111111 6%,#232323 32%,#1c1c1c 60%,#131313 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #111111 6%,#232323 32%,#1c1c1c 60%,#131313 100%); 
-	width:150px;
-	float:left;
-	height: 100%;
-	margin-top: -60px;
-	position: fixed;
+.golfMeeterProfile p {
+	margin-top:-3px;
+	margin-bottom: 0;
 }
 
-.profile-box {
-	padding-top: 100px;
+.golfMeeterProfile p:nth-of-type(first){
+	margin-top: 5px;
+} 
+
+
+
+
+
+.profileInformation td {
+	padding: 0;
+	text-align: center;
 }
 
-.left-nav .btn {
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	-o-border-radius: 0;
-	border-radius: 0;
+.golfmeeterProfileBox img{
+	margin-left: 0;
 }
 
-.buttons-left:first-of-type {
-	margin-top: 30px;
-}
-
-.buttons-left {
-	margin:1px 15px 1px -15px;
-	border-top:1px inset #222;
-	border-bottom:1px inset #222;
-	width:150px;
+.createEventBox button{
+	width:200px;
 	height:70px;
-	background-color: #111;
-	display:block;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0
+	border-radius: 0;;
+	position: absolute;
+	margin: 40px 25px;
+	background-color: #ee4d00;
+	color: #fff;
+	text-transform: uppercase;
 }
 
-button { background: none transparent; border: none; }
-.buttons-left:hover{
-	background-color: #a7cc25;
-	color:#d24502;
-}
-
-button:active {
-	
-}
-
-
-
-.navbar-right .glyphicons:before {
-  font: 15px/1em 'Glyphicons Regular';
-  padding:5px;
-}
-
- .left-nav .glyphicons:before {
-  font: 25px/1em 'Glyphicons Regular';
-  color: #fff;
-  margin-top: 20px;
-  margin-left: 30px;
-
-}
-
-.white:hover:before {
-  color: #d24502;
+.createEventBox .btn-default:hover,
+.createEventBox .btn-default:focus {
+	background-color: #72bf00;
+	color:#fff;
 }
 
 
- .label-white {
- 	color: #fff;
- 	font-size: 11px;
- 	position: absolute;
- 	margin-top: -8px;
- 	margin-left: -25px;
-	
-
- }
-
-
-
-.left-nav-body {
- 	width: 900px;
- 	margin-top: 30px;
- 	margin-left:20%;
- 	float: left;
-}
-
-.left-nav-body:nth-of-type(2) {
- 	margin-top: 0;
+.profileBox {
+	height: 900px;
 }
 
 
-.text-box {
-	width:300px;
-	color:#000;
-	padding-left: 5px;
-	border:1px inset #eee;
-	background-color: #f8ffe8;
+.profileBox img{
+	margin-left: 17.5%;
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
-.form-box {
-	width:300px;
-	color:#000;
-	padding-left: 5px;
-	background-color: #f8ffe8;
+.profileBox #profileBoxInformation{
+	text-align: center;
+	margin-top: 10px;
 }
 
-.info-box-left {
- 	float: left;
- 	width: 350px;
- 	padding-left: 50px;
-
+span#profileName {
+	font-weight: bold;
+	font-size: 20px;
 }
 
-.info-box-right {
- 	float: right;
- 	width: 350px;
- 	margin-right: 27px;
- 	margin-top: -25px;
- 	
+.form-inline {
+	text-align: justify;
 }
 
-.info-box-left:nth-of-type(2) {
-  	visibility: hidden;
+.activitiesBox {
+	height:900px;
 }
 
-
-
-.form-group {
-	margin-bottom:7px;
-	font-size: 13px;
+.calendarBox {
+	height:900px;
 }
 
-.panel-success{
-	border:2px solid #282828;
+.progressBox,
+.dealsBox {
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-top: 2px solid #eee;
+	height:250px;
 	background-color: #fff;
 }
 
-.panel-success>.panel-heading{
-	color:#fff;
-	background: #282828;
+/*------glyphs-------*/
+
+
+.boxIcon h5 {
+	margin-top: 5px;
+	margin-left: -7px;
+}
+.boxIcon img {
+	opacity: .7;
+	margin-bottom: 5px;
 }
 
- .panel-body {
- 	padding-left: 40px;
- }
-
-
-iframe {
-	margin-left: 280px;
+.progressBox .boxIcon,
+.dealsBox .boxIcon {
+	margin-left: -70px;
+	margin-top: -10px;
 
 }
 
-.pull-right {
-	margin-top: -20px;
-	margin-right:2px;
+.profileBoxIcon {
+	margin-top: -15px;
+	margin-left: -65px;
 }
 
-#scorecard-div {
-	width: 400px;
-	height: 400px;
-	margin-left: 300px;
-	margin-top: 50px;
+.profileBoxIcon img{
+	margin-top: 10px;
+	opacity: .7;
 }
+
+.progressBox .boxIcon img,
+.dealsBox .boxIcon img{
+	margin-bottom: 10px;
+}
+
+/*--------footer---------*/
+
+footer{
+	margin-top:20px;
+}
+
 
 

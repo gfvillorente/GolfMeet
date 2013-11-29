@@ -1,6 +1,18 @@
-/*----------grid-------------*/
+/*----------Navbar-------------*/
+
+.navbar-default  {
+	background-color: #72bf00; 
+}
+
+.navbar-brand {
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
 
 
+ul {
+	display: inline;
+}
 /*---------typography-----------*/
 
 html, body{
@@ -17,3 +29,17 @@ ul {
  	list-style: none;
  	
  }
+
+ /*-----footer-------*/
+
+
+ footer {
+	font-size: 14px;
+	font-weight: light;
+	background-color: #72bf00;
+}
+
+footer p {
+	padding-top: 12px;
+}
+

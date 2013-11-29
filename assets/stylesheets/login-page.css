@@ -1,24 +1,23 @@
 /*------Navigation Bar--------*/
-.navbar-default  {
-	background-color: #72bf00; 
-}
 
-.navbar-brand {
-	padding-bottom: 3px;
-	padding-top: 3px;
-}
 nav .btn-default {
 	margin-top:17px;
-	padding: 5px 30px;
-	background-color: #ee4d00;
-	color: #fff;
+	width:100px;
+	padding: 5px 20px;
+	/*background-color: #ee4d00;*/
+
+	
 	text-transform: uppercase;
 	border: none;
+	margin-left: 5px;
 }
 
-ul {
-	display: inline;
+.signUpButton {
+	background-color: #ee4d00;
+	color:#fff;
 }
+
+
 /*-------Header Wrap---------*/
 
 
@@ -58,7 +57,7 @@ ul {
 .subheadText {
 	padding: 20px 0;
 	max-width: 900px;
-	margin:10px auto;
+	margin:10px auto 90px auto;
 	text-align: center;
 }
 /*--------About Wrap---------*/
@@ -188,13 +187,4 @@ ul {
 
 /*-------footer-------*/
  
-footer {
-	font-size: 14px;
-	font-weight: light;
-	background-color: #72bf00;
-}
-
-footer p {
-	padding-top: 12px;
-}
 
