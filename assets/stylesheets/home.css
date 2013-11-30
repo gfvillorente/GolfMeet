@@ -1,12 +1,10 @@
 /*------Navigation Bar--------*/
 
 nav .btn-default {
-	margin-top:17px;
+	/*margin-top:13px;*/
 	width:100px;
 	padding: 5px 20px;
 	/*background-color: #ee4d00;*/
-
-	
 	text-transform: uppercase;
 	border: none;
 	margin-left: 5px;

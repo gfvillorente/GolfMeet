@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+{% block content %}
+
+<head>
+    <title>Golfmeet</title>
+    <link href="{% static 'assets/stylesheets/login.css' %}" type="text/css" media="screen" rel="stylesheet">
+</head>
+
+
+<body>
+  <div class="loginBackgroundImage">
+    <div class="container">
+
+      <h2>Ready. Set. GolfMeet!</h2>
+
+      <div id="data-dashboard">
+        <form method="POST" action="">
+        {% csrf_token %}
+            <ul>
+                <p>Username:</p>
+                <li>{{ LoginForm.username }}</li>
+                <br>
+                <p>Password:</p>
+                <li>{{ LoginForm.password }}</li>
+                <br><br><br>
+              <input id="login" type="submit" value="login" />
+            </ul>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+{% endblock %}
+</html>

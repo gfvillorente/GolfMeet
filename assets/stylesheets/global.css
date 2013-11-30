@@ -4,11 +4,27 @@
 	background-color: #72bf00; 
 }
 
-.navbar-brand {
-	padding-bottom: 3px;
-	padding-top: 3px;
+nav .btn-default {
+	/*margin-top:13px;*/
+	width:100px;
+	padding: 5px 20px;
+	/*background-color: #ee4d00;*/
+	text-transform: uppercase;
+	border: none;
+	margin-left: 5px;
 }
 
+.signUpButton {
+	background-color: #ee4d00;
+	color:#fff;
+}
+
+
+.navbar-brand {
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-bottom:2px;
+}
 
 ul {
 	display: inline;
