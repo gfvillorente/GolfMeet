@@ -201,16 +201,55 @@ span#profileName {
 	margin-top: -1px;
 }
 
-
-
-
 .profileBox .boxIcon img,
 .progressBox .boxIcon img,
 .dealsBox .boxIcon img{
 	margin-bottom: 8px;
 	margin-right: 3px;
 }
+/*-----Activities Wall------*/
 
+.activitiesBox .btn-default {
+	border-radius: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0
+	border-radius: 0;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #ee4d00;
+	margin-top: 10px;
+}
+
+.activitiesBox input {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0
+	border-radius: 0;
+}
+
+.activitiesBox .row {
+	margin:15px 1px;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
+.activitiesBox .col-md-3 {
+	border:none;
+	background-color: none;
+	width:10%;
+
+}
+
+.activitiesBox .col-md-3 img{
+	margin-left: -15px;	
+}
+
+.activitiesBox .col-md-9{
+	font-size: 14px;
+	width: 90%;
+}
+
+.col-md-9 h6 {
+	font-weight: bold;
+}
 /*--------footer---------*/
 
 footer{
